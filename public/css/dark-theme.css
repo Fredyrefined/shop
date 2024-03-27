@@ -1,0 +1,48 @@
+/* public/css/dark-theme.css */
+
+body {
+    background-color: #030000;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+}
+
+/* Style for the table */
+.table {
+    width: 100%;
+    margin-bottom: 1rem; /* Adjust margin as needed */
+    color: #fff; /* Table text color */
+    background-color: #07080a; /* Table background color */
+}
+
+/* Style for table cells */
+.table th,
+.table td {
+    padding: 0.75rem; /* Adjust padding as needed */
+    vertical-align: top;
+    border-top: 1px solid #e8e1e1; /* Table border color */
+}
+
+/* Style for table header cells */
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #f0e5e5; /* Table border color */
+}
+
+/* Style for table body rows */
+.table tbody + tbody {
+    border-top: 2px solid #f1ebeb; /* Table border color */
+}
+
+
+

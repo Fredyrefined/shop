@@ -1,0 +1,112 @@
+/* public/css/dark-theme.css */
+
+body {
+    background-color: #030000;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+}
+
+/* Remove border and set background color for table within .table-responsive */
+.table-responsive > .table-bordered {
+    width: 100%;
+    margin-bottom: 1rem; /* Adjust margin as needed */
+    color: #fff; /* Table text color */
+    background-color: #07080a; /* Table background color */
+}
+
+/* Set background color for table with border */
+.table-bordered {
+    border: 1px solid #d2d4d7;
+    background-color: #01080c; /* Set background color */
+}
+
+/* Style for table cells */
+/* .table th,
+.table td{
+    background-color:inherit;
+} */
+
+.table th,
+.table td {
+    background-color:inherit;
+    padding: 0.75rem; /* Adjust padding as needed */
+    vertical-align: top;
+    border-top: 1px solid #dfd4d4; /* Table border color */
+    color: #d5cfcf; /* Set text color */
+}
+
+/* Style for table header cells */
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #e6dede; /* Table border color */
+}
+
+/* Style for border between table body sections */
+.table tbody + tbody {
+    border-top: 2px solid #efe5e5; /* Table border color */
+}
+
+/* Style for table */
+.table {
+    width: 100%;
+    margin-bottom: 1rem; /* Adjust margin as needed */
+    background-color: #d4dae5; /* Table background color */
+}
+
+.page-link {
+    background-color: #01080c; /* Set the desired background color */
+    border: 1px solid #d2d4d7;
+    /* Uncomment if needed */
+    /* width: 100%; */
+    /* margin-bottom: 1rem; */
+}
+
+/* Style for pagination items with justify-content-end class */
+.pagination.justify-content-end li {
+    background-color: #01080c; /* Set the desired background color */
+    border: 1px solid #090a0c;
+    /* Uncomment if needed */
+    /* width: 100%; */
+    /* margin-bottom: 1rem; */
+}
+
+/* Style for input elements */
+select,
+input[type="text"],
+input[type="Status"],
+input[type="address"],
+input[type="file"],
+input[type="number"],
+input[type="datetime-local"] {
+    background-color: #01080c; /* Set the desired background color */
+    border: 1px solid #090a0c;
+}
+
+nav ol li{
+    background-color: inherit;
+    background-color: #030000 ;
+    color: #fff;
+}
+.breadcrumb{
+    background-color: inherit;
+    background-color: #030000 ;
+    
+}
+div.card {
+    background-color: inherit;
+    background-color: #030000 ;
+}
+.card-body h5{
+    color: #fff;
+}
